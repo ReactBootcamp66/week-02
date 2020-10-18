@@ -1,13 +1,14 @@
 import React from 'react';
+import './App.css';
 
-import FunctionalComponent from './components/FunctionalComponent';
-import ClassComponent from './components/ClassComponent';
+import Greetings from './components/Greetings';
+import FilterableProductTable from './components/FilterableProductTable/FilterableProductTable';
 
 function App() {
   return (
-    <div className="App">
-      <FunctionalComponent />
-      <ClassComponent />
+    <div className="container">
+      <Greetings name="John Doe" />
+      <FilterableProductTable />
     </div>
   );
 }
